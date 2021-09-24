@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_24_052214) do
+ActiveRecord::Schema.define(version: 2021_09_24_154317) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,10 @@ ActiveRecord::Schema.define(version: 2021_09_24_052214) do
     t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "account_set_up_at"
+    t.string "current_cursor_value"
+    t.integer "reserved_points"
+    t.integer "total_points"
   end
 
 end
