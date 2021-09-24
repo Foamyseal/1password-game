@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 // Based on the stem generator in Flash Math Creativity
 
@@ -17,3 +18,6 @@ const UpdatingTree = (props) => {
 
 
 
+=======
+import React from "react";
+>>>>>>> feature/progress_bar

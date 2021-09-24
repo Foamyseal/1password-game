@@ -2,20 +2,18 @@
 // like app/views/layouts/application.html.erb. All it does is render <div>Hello React</div> at the bottom
 // of the page.
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
+import React from "react";
+import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { ProgressBar } from "../ProgressBar/index";
 
-const App = props => (
-  <div>Hello {props.name}!</div>
-)
-
-App.defaultProps = {
-  name: 'David'
-}
-
-App.propTypes = {
-  name: PropTypes.string
-}
+const App = (props) => {
+  return (
+    <div>
+      <ProgressBar completed={50} />
+    </div>
+  );
+};
 
 export { App };
