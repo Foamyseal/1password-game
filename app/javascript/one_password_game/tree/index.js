@@ -1,0 +1,1 @@
+export { Tre } from "./App";
