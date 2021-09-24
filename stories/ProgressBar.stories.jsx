@@ -9,8 +9,25 @@ export default {
 
 const Template = (args) => <ProgressBar {...args} />;
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const LessThanHalf = Template.bind({});
+LessThanHalf.args = {
   completed: 25,
-  bgcolor: "red",
+};
+
+export const Half = Template.bind({});
+
+Half.args = {
+  completed: 50,
+};
+
+export const MoreThanHalf = Template.bind({});
+
+MoreThanHalf.args = {
+  completed: 75,
+};
+
+export const Full = Template.bind({});
+
+Full.args = {
+  completed: 100,
 };
