@@ -5,7 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* **Ruby version**: ruby 3.0.1p64
+
+* **Rails version**: Rails 6.1.4.1
+
+* **Bundler version**: Bundler version 2.2.27
 
 * System dependencies
 
