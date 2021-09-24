@@ -19,7 +19,8 @@
     "styled-components": "^5.3.1",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "material-ui-image": "^3.3.2"
   },
   
   "resolutions": {
